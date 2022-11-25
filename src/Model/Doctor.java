@@ -86,7 +86,7 @@ public class Doctor extends GameObject {// set class child to GameObject คื�
 			 if (this.getBounds().intersects(tempObject.getBounds())) {
 			 JOptionPane.showMessageDialog(null, "Congragulations, you won!");
 			 System.exit(0);
-			 }
+			 	}
 			 }
 		}
 
